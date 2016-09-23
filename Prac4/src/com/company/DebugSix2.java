@@ -13,12 +13,14 @@ public class DebugSix2
       final int STOPLINE1 = 85;
       final int STOPLINE2 = 122;
 
-      for(a = MIN; a <= MAX; a++)
+      for(a = MIN; a <= MAX; a++) {
         letter = (char)a;
-
         System.out.println(" " + letter);
-        if((a == STOPLINE1) && (a == STOPLINE2))
-          System.out.println();
+
+
+       if((a == STOPLINE1) && (a == STOPLINE2))
+          System.out.println('\n');
+      }
       System.out.println("\nEnd of application");
     }
 }

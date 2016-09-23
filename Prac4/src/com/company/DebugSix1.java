@@ -1,3 +1,4 @@
+package com.company;
 // DebugSix1.java
 // Start with a penny
 // double it every day
@@ -11,8 +12,9 @@ public class DebugSix1 {
       while(day < DAYS)
       {
          money = (money * 2);
+          day += 1;
          System.out.println("After day " + day +
-            " you have " + money);
+            " you have $" + money);
       }
    }
 }

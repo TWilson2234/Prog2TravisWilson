@@ -3,48 +3,39 @@
 // (and including) user-specified values
 package com.company;
 import java.util.Scanner;
+import java.util.Random;
 public class DebugSix4
 {
    public static void main(String[] args)
    {
       int high, low, count;
+       int a = 0;
       final int NUM = 5;
       Scanner input = new Scanner(System.in);
+       Random randGen = new Random();
 
-      // Prompt user to enter high and low values
-      System.out.print("This application displays " + NUM +
-         " random numbers" +
-         "\nbetween the low and high values you enter" +
-         "\nEnter low value now... ");
-      low = input.nextInt();
+       System.out.println("This program displays " + NUM + " different numbers.");
+
+       System.out.print("Please enter a low number: ");
+       low = input.nextInt();
+
+       System.out.print("Please enter a high number: ");
+       high = input.nextInt();
+
+       while (true) {
+           if (low > high) {
+               System.out.printf("Your high number is too low, please enter a number high than %s:", high);
+               high = input.nextInt();
+           } else {
+               for (a = a; a < NUM; a++) {
+                   count = randGen.nextInt(high - low + 1) + low;
+                   System.out.print(count + " ");
+               }
+           }
+           System.out.println("<-- These are your numbers");
+           break;
+       }
 
 
-      System.out.print("Enter high value... ");
-      high = input.nextInt();
-
-      while(low > high)
-      {
-         System.out.println("The number you entered for a high number, " +
-            high + ", is not more than " + low);
-         System.out.print("Enter a number higher than " + low + "... ");
-         high = input.nextInt();
-      }
-
-      count = NUM;
-
-      while(count < low)
-      {
-         double result = Math.random();
-          // random() returns value between 0 and 1
-         int answer = (int) (result * 10 + low);
-          // multiply by 10 and add low -- random is at least the value of low
-          // only use answer if it is low enough
-         if(answer <= low)
-         {
-            System.out.print(answer + "  ");
-            ++count;
-         }
-      }
-      System.out.println();
    }
 }

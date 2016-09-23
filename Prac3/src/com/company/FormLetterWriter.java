@@ -13,6 +13,7 @@ public class FormLetterWriter {
     }
 
     public static void displaySalutation1(String lName) {
+
         System.out.println("Dear Mr or Mrs " + lName);
     }
 

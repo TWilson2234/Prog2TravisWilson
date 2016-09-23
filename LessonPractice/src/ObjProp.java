@@ -6,6 +6,6 @@ public class ObjProp {
     }
 
     public void setProp() {
-        
+
     }
 }

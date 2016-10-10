@@ -1,13 +1,16 @@
 public class DebugPlay
 {
-   private String title;
-   protected String author;
+   public String title;
+   public String author;
 
-   public void FixDebugPlay(String title, String author) {
-      title = title;
+    public DebugPlay(String title, String author) //Constructor
+   {
+       title = title;
       author = author;
    }
-   public void display() {
+
+    public void display()
+   {
       System.out.println("The performance is " + title +
         " by " + author);
    }

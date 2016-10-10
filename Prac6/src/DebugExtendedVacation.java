@@ -1,8 +1,11 @@
 public class DebugExtendedVacation extends DebugVacation
 {
-   public DebugVacation()
+   public int DebugVacation(int days)
    {
-       int days;
       days = 30;
+       return days;
    }
+    public int getDays(int days) {
+        return days;
+    }
 }

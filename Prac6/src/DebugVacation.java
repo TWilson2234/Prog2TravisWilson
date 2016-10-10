@@ -1,11 +1,13 @@
 public class DebugVacation
 {
    private int days;
-
-   public DebugVacation() {
-       days = 10;
-   }
-   public int getDays() {
+   public int DebugVacation(int days)
+   {
+      days = 10;
        return days;
+   }
+   public int getDays(int days)
+   {
+      return days;
    }
 }

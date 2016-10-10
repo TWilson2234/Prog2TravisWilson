@@ -6,12 +6,16 @@ public class DebugTen3
    {
       String area, inStr;
       int pages;
+
       area = JOptionPane.showInputDialog(null, 
          "Enter city for phone book");
+
       inStr = JOptionPane.showInputDialog(null, 
          "Enter number of pages in " + area + "'s phone book");
-      pages = Integer.parseInt(inStr);
-      DebugPhoneBook pb = new DebugPhoneBook(pages, pages++);
+
+       pages = Integer.parseInt(inStr);
+
+       DebugPhoneBook pb = new DebugPhoneBook(pages, area);
       pb.display();
    }
 }

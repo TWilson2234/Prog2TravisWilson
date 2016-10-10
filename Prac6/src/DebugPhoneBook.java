@@ -1,13 +1,13 @@
 import javax.swing.*;
 public class DebugPhoneBook extends DebugBook
 {
-   private String area
-   private String size 
+   private int area;
+   private String size;
    private final int CUTOFF = 30;
-   FixDebugPhoneBook(int pages, int city)
+   DebugPhoneBook(int pages, String area)
    {
-      super(pages);
-      area = city;
+      //super(pages, area);
+
       if(pages < CUTOFF)
          size = "big";
       else

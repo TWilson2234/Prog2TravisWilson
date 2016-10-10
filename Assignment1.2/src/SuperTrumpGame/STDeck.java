@@ -11,6 +11,7 @@ import java.util.Random;
 public class STDeck {
     private static final int NUM_CARDS_INIT = 60;
     private ArrayList<STCard> cards;
+    private ArrayList<STCard> playerDeck;
 
     public STDeck() {
         cards = new ArrayList<STCard>();
@@ -49,7 +50,6 @@ public class STDeck {
                 STCard card = cards.remove(idx);
                 ret.add(card);
         }
-
         return ret;
     }
 }

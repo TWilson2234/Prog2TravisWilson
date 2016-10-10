@@ -17,6 +17,10 @@ public class STPlayer {
         this.cards = cards;
     }
 
+    public ArrayList<STCard> getCards() {
+        return cards;
+    }
+
     public int getPlayerId() {
         return playerId;
 

@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d008dfad-b518-4fa0-9928-47e8815e5655" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assignment1 - Mineral SuperTrumps/src/Card.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assignment1 - Mineral SuperTrumps/src/DeckOfCards.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assignment1 - Mineral SuperTrumps/src/Player.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assignment1 - Mineral SuperTrumps/src/gamePlay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assignment1.2/Assignment1.2.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/MineralST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STCard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STDeck.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STGame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LessonPractice/src/charDetails.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LessonPractice/src/charRun.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LessonPractice/src/windowTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assignment1 - Mineral SuperTrumps/src/Cp2406SuperTrumps.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Assignment1 - Mineral SuperTrumps/Cards.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Assignment1 - Mineral SuperTrumps/MSTDeck.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Assignment1 - Mineral SuperTrumps/MineralSuperTrumpsGame.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LessonPractice/Animals.class" afterPath="$PROJECT_DIR$/out/production/LessonPractice/Animals.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac6/src/DebugBook.java" afterPath="$PROJECT_DIR$/Prac6/src/DebugBook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac6/src/DebugCustomer.java" afterPath="$PROJECT_DIR$/Prac6/src/DebugCustomer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac6/src/DebugCustomerMakingPurchase.java" afterPath="$PROJECT_DIR$/Prac6/src/DebugCustomerMakingPurchase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac6/src/DebugExtendedVacation.java" afterPath="$PROJECT_DIR$/Prac6/src/DebugExtendedVacation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac6/src/DebugMusical.java" afterPath="$PROJECT_DIR$/Prac6/src/DebugMusical.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac6/src/DebugPhoneBook.java" afterPath="$PROJECT_DIR$/Prac6/src/DebugPhoneBook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac6/src/DebugPlay.java" afterPath="$PROJECT_DIR$/Prac6/src/DebugPlay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac6/src/DebugTen1.java" afterPath="$PROJECT_DIR$/Prac6/src/DebugTen1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac6/src/DebugTen2.java" afterPath="$PROJECT_DIR$/Prac6/src/DebugTen2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac6/src/DebugTen3.java" afterPath="$PROJECT_DIR$/Prac6/src/DebugTen3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac6/src/DebugTen4.java" afterPath="$PROJECT_DIR$/Prac6/src/DebugTen4.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac6/src/DebugVacation.java" afterPath="$PROJECT_DIR$/Prac6/src/DebugVacation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac7/src/DebugEleven3.java" afterPath="$PROJECT_DIR$/Prac7/src/DebugEleven3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STDeck.java" afterPath="$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STDeck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STGame.java" afterPath="$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STPlayer.java" afterPath="$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STPlayer.java" />
     </list>
     <ignored path="Prog2TravisWilson.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,8 +28,8 @@
       <file leaf-file-name="MineralST.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/MineralST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="134">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,8 +38,8 @@
       <file leaf-file-name="STDeck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STDeck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+            <state relative-caret-position="283">
+              <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,11 +50,13 @@
       <file leaf-file-name="STPlayer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="249">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding>
                 <element signature="e#221#222#0" expanded="true" />
                 <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,10 +65,12 @@
       <file leaf-file-name="STGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="117">
+              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,7 +79,7 @@
       <file leaf-file-name="STCard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STCard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="589">
               <caret line="49" column="14" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="14" />
               <folding>
                 <element signature="e#1065#1066#0" expanded="true" />
@@ -182,9 +156,9 @@
         <option value="$PROJECT_DIR$/Assignment1.2/src/STGame/STDeck.java" />
         <option value="$PROJECT_DIR$/Assignment1 - Mineral SuperTrumps/src/DeckOfCards.java" />
         <option value="$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STCard.java" />
+        <option value="$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/MineralST.java" />
         <option value="$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STPlayer.java" />
         <option value="$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STDeck.java" />
-        <option value="$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/MineralST.java" />
         <option value="$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STGame.java" />
       </list>
     </option>
@@ -245,6 +219,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Prog2TravisWilson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prog2TravisWilson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prog2TravisWilson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prog2TravisWilson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prog2TravisWilson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperTrumpGame" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -644,21 +654,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35962147" sideWeight="0.40775988" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35962147" sideWeight="0.40556368" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2807571" sideWeight="0.56442165" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2807571" sideWeight="0.57027817" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2807571" sideWeight="0.43557832" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2807571" sideWeight="0.4297218" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16617863" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16617863" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1008,7 +1018,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="589">
           <caret line="49" column="14" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="14" />
           <folding>
             <element signature="e#1065#1066#0" expanded="true" />
@@ -1017,41 +1027,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STDeck.java">
+    <entry file="file://$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+        <state relative-caret-position="249">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STPlayer.java">
+    <entry file="file://$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STDeck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="283">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
           <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/STGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="117">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment1.2/src/SuperTrumpGame/MineralST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="134">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>

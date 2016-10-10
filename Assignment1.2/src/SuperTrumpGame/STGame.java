@@ -11,7 +11,7 @@ public class STGame {
     private int numPlayers;
     private int dealerId;
     private STPlayer[] players;
-    private STDeck deck;
+    public STDeck deck;
     int yourPlayerId;
 
     public STGame(int numPlayers){
@@ -73,6 +73,9 @@ public class STGame {
         Scanner userChoice = new Scanner(System.in);
         System.out.println("Please Enter a card Id: ");
         String userInput = userChoice.nextLine();
+
+        for (int i = 0; 0 < 8; i++) {
+        }
 
 
 

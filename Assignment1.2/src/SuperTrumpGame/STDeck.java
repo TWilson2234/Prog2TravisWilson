@@ -9,9 +9,11 @@ import java.util.Random;
  * Created by T'uKeyan on 7/10/2016.
  */
 public class STDeck {
-    private static final int NUM_CARDS_INIT = 60;
+    private final int NUM_CARDS_INIT = 60;
+    private final int playerCards = 8;
     private ArrayList<STCard> cards;
-    private ArrayList<STCard> playerDeck;
+    public ArrayList<Integer> playerDeck;
+    public static ArrayList<Integer> refDeck = new ArrayList<Integer>();
 
     public STDeck() {
         cards = new ArrayList<STCard>();
@@ -27,13 +29,15 @@ public class STDeck {
             input = Files.newInputStream(file);
             BufferedReader reader = new BufferedReader(new InputStreamReader(input));
 
-
+            //Creating Card Objects
             for (i = 0; i < NUM_CARDS_INIT; i++) {
                 while ((line = reader.readLine()) != null) {
                     i = i + 1;
                     String[] details = line.split(splitBy);
                     cards.add(new STCard(i, details[0], details[1], details[2], details[3], details[4], details[5]));
-                    System.out.println(cards.get(i - 1).getId());
+                    refDeck.add(i);
+                    //System.out.println(refDeck.get(i - 1));
+                    //System.out.printf("Id: %s,%s, %s \n", cards.get(i - 1).getId(), cards.get(i - 1).getName(), cards.get(i - 1).getValue());
                 }
             }
 
@@ -41,15 +45,18 @@ public class STDeck {
             e.printStackTrace();
         }
     }
+        //Creating an integer list to reference the objects
+        public static ArrayList<Integer> dealCards(int cardsToDeal) {
+            ArrayList<Integer> playerDeck = new ArrayList<>();
 
-        public ArrayList<STCard> dealCards(int xCards) {
-            ArrayList<STCard> ret = new ArrayList<STCard>();
-
-            for (int i = 0; i < xCards; i++){
-                int idx = new Random().nextInt(cards.size());
-                STCard card = cards.remove(idx);
-                ret.add(card);
+            for (int i = 0; i < cardsToDeal; i++){
+                int idx = new Random().nextInt(refDeck.size());
+                if (playerDeck.contains(idx)){
+                    i = i - 1;
+                } else {
+                    playerDeck.add(idx);
+                }
         }
-        return ret;
+        return playerDeck;
     }
 }

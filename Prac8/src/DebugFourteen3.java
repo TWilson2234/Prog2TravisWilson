@@ -2,7 +2,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-public class DebugFourten3 extends JFrame implements ItemListener
+public class DebugFourteen3 extends JFrame implements ItemListener
 {
    FlowLayout flow = new FlowLayout();
    JComboBox pizzaBox = new JComboBox();

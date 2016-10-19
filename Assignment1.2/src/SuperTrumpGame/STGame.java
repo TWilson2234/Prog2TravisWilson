@@ -1,4 +1,6 @@
 package SuperTrumpGame;
+import org.omg.CORBA.INTERNAL;
+
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
@@ -12,6 +14,8 @@ public class STGame {
     private int dealerId;
     private STPlayer[] players;
     public STDeck deck;
+    public ArrayList<Integer> playerDeck;
+
     int yourPlayerId;
 
     public STGame(int numPlayers){
@@ -28,14 +32,18 @@ public class STGame {
 
     public void dealRandomCardsToEachPlayer() {
         players = new STPlayer[numPlayers];
+        int b = 0;
 
         for(int i = 0; i < numPlayers; i++) {
             players[i] = new STPlayer(i + 1);
         }
 
         for(STPlayer player : players) {
-            ArrayList<STCard> cards = deck.dealCards(NUM_CARDS_TO_DEAL);
-            player.setCards(cards);
+            b = b +1;
+            System.out.println("Deck " + b);
+            playerDeck = STDeck.dealCards(NUM_CARDS_TO_DEAL);
+
+
         }
     }
 
@@ -55,6 +63,7 @@ public class STGame {
                 if (i == 0) {
                     getHumanTurn();
 
+
                 } else {
                     getBotTurn();
                 }
@@ -73,11 +82,21 @@ public class STGame {
         Scanner userChoice = new Scanner(System.in);
         System.out.println("Please Enter a card Id: ");
         String userInput = userChoice.nextLine();
+        int userCard = Integer.parseInt(userInput);
 
-        for (int i = 0; 0 < 8; i++) {
-        }
+//        for (int i = 0; i < STDeck.playerDeck.size(); i++) {
+//            if (STDeck.playerDeck.get(i).getId() == userCard) {
+//                System.out.println("This card");
+//                getPlayerCard(i);
+//                STDeck.playerDeck.remove(i);
+//            } else {
+//                System.out.println("Not this card");
+//            }
+//        }
+    }
 
-
-
+    public int getPlayerCard(int i) {
+        //return STDeck.playerDeck.get(i);
+        return i;
     }
 }

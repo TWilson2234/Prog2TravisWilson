@@ -2,6 +2,9 @@
 // Keep executing until user enters four valid employee IDs
 // This program throws a FixDebugEmployeeIDException
 import javax.swing.*;
+
+import static com.sun.org.apache.xalan.internal.xsltc.compiler.sym.error;
+
 public class DebugTwelve4
 {
    public static void main(String[] args)
@@ -9,26 +12,29 @@ public class DebugTwelve4
       String inStr, outString = "";
       final int MAX = 999;
       int[] emp = new int[4];
-      for(x = 0; x < emp.length; ++x)
+
+      for(int x = 0; x < emp.length; ++x)
       {
          inStr = JOptionPane.showInputDialog(null, "Enter employee ID number");  
-         throw
+
+          try
          {
             emp[x] = Integer.parseInt(inStr);
             if(emp[x] > MAX)
             {
-               throw(new FixDebugEmployeeIDException("Number too high " + emp[x]));
+               throw(new DebugEmployeeIDException("Number too high " + inStr));
             }
          }
+
          catch(NumberFormatException error)
          {	
             --x;
             JOptionPane.showMessageDialog(null, inStr + "\nNonnumeric ID");
          }
-         catc(FixDebugEmployeeIDException error)
+         catch(DebugEmployeeIDException error)
          {	
 	    --x;
-            JOptionPane.showMmrge");
+            JOptionPane.showMessageDialog(null, "ggg");
          }
       }
       for(int x = 0; x < emp.length; ++x)

@@ -23,6 +23,7 @@ public class MineralST {
         STGame game = new STGame(numPlayers);
         game.selectDealer();
         game.dealRandomCardsToEachPlayer();
+
         game.selectYouAsPlayer();
         STPlayer humPlayer = game.getHumPlayer();
         showPlayer(humPlayer);

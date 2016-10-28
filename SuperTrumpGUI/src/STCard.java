@@ -1,5 +1,3 @@
-package SuperTrumpGame;
-
 /**
  * Created by T'uKeyan on 7/10/2016.
  */

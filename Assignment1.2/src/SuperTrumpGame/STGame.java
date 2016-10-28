@@ -20,6 +20,7 @@ public class STGame {
 
     public STGame(int numPlayers){
 
+        //
         this.numPlayers = numPlayers;
         deck = new STDeck();
     }
